@@ -82,15 +82,3 @@ Write a Short Report (150–200 words):
 1. Navigate to the `ComparisonTable` folder to view the detailed comparison matrix
 2. Check the `ShortReport` folder for technical analysis and platform selection recommendations
 3. Review this README for a comprehensive overview of all three blockchain platforms
-
-## Key Takeaways
-
-Each blockchain platform serves different purposes based on:
-
-- **Access Requirements** (Open vs Permissioned)
-- **Performance Needs** (TPS and Latency)
-- **Privacy Considerations** (Public vs Private data)
-- **Regulatory Compliance** (Industry-specific requirements)
-- **Technical Complexity** (Development and maintenance overhead)
-
-Choose the platform that best aligns with your specific use case requirements and technical constraints.
