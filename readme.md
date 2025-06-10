@@ -1,16 +1,45 @@
-# Blockchain Platform Comparison
+# Blockchain Platform Analysis
 
-## Overview
+This repository contains a comprehensive analysis of three different blockchain platforms representing public, private, and consortium blockchain architectures.
 
-This comparison analyzes three distinct blockchain platforms representing different deployment models: public, private, and consortium blockchains.
+## Repository Structure
 
-## Comparison Table
+### 📁 ComparisonTable
 
-| **Blockchain Name**    | **Type**   | **Consensus Mechanism Used** | **Permission Model** | **Speed/Throughput (TPS)** | **Smart Contract Support** | **Token Support**                              | **Typical Use Case**                                                | **Notable Technical Feature**                                           |
-| ---------------------- | ---------- | ---------------------------- | -------------------- | -------------------------- | -------------------------- | ---------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **Ethereum**           | Public     | Proof of Stake (PoS)         | Open                 | 15-20 TPS (Layer 1)        | Yes - Solidity, Vyper      | Native (ETH) + ERC tokens                      | DeFi, NFTs, dApps, Web3 applications                                | EVM (Ethereum Virtual Machine) enables diverse smart contract ecosystem |
-| **Hyperledger Fabric** | Private    | Pluggable (PBFT, Raft, Solo) | Permissioned         | 3,000-20,000 TPS           | Yes - Go, JavaScript, Java | No native token (can create custom assets)     | Enterprise supply chain, healthcare records, identity management    | Modular architecture with pluggable consensus and privacy channels      |
-| **R3 Corda**           | Consortium | Notary-based consensus       | Permissioned         | 170-1,700 TPS              | Yes - Kotlin, Java         | No native token (represents real-world assets) | Financial services, trade finance, insurance, regulatory compliance | Point-to-point transactions with legal identity integration             |
+Contains the solution for the following problem statement:
+
+**Problem Statement:**
+Create a comparison table or markdown sheet with the following columns for each platform:
+
+- **Blockchain Name**
+- **Type (Public/Private/Consortium)**
+- **Consensus Mechanism Used**
+- **Permission Model (Open/Permissioned)**
+- **Speed / Throughput (TPS if available)**
+- **Smart Contract Support (Y/N + Language)**
+- **Token Support (Native or not)**
+- **Typical Use Case**
+- **Notable Technical Feature (e.g., privacy, pluggable consensus)**
+
+### 📁 ShortReport
+
+Contains the solution for the following problem statement:
+
+**Problem Statement:**
+Write a Short Report (150–200 words):
+
+- Compare and contrast the **technical capabilities** of each platform
+- Which platform would you choose for:
+  - A decentralized app?
+  - A supply chain network among known partners?
+  - An inter-bank financial application?
+- Justify your choice based on technical points
+
+## Platforms Analyzed
+
+1. **Ethereum** - Public Blockchain
+2. **Hyperledger Fabric** - Private Blockchain
+3. **R3 Corda** - Consortium Blockchain
 
 ## Detailed Analysis
 
@@ -47,3 +76,21 @@ This comparison analyzes three distinct blockchain platforms representing differ
 - **Choose Ethereum** for: Public applications, DeFi protocols, NFT marketplaces, decentralized governance
 - **Choose Hyperledger Fabric** for: Internal enterprise processes, supply chain tracking, document verification
 - **Choose R3 Corda** for: Inter-bank transfers, trade finance, insurance claims, regulatory reporting
+
+## Getting Started
+
+1. Navigate to the `ComparisonTable` folder to view the detailed comparison matrix
+2. Check the `ShortReport` folder for technical analysis and platform selection recommendations
+3. Review this README for a comprehensive overview of all three blockchain platforms
+
+## Key Takeaways
+
+Each blockchain platform serves different purposes based on:
+
+- **Access Requirements** (Open vs Permissioned)
+- **Performance Needs** (TPS and Latency)
+- **Privacy Considerations** (Public vs Private data)
+- **Regulatory Compliance** (Industry-specific requirements)
+- **Technical Complexity** (Development and maintenance overhead)
+
+Choose the platform that best aligns with your specific use case requirements and technical constraints.
